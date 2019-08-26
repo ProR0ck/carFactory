@@ -1,0 +1,217 @@
+   body {
+    font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+    font-size: 14px;
+	background: #e1dfb9; /* Цвет фона */
+	margin-top: 0;
+	
+   }
+   h2 {
+    font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+    font-size: 20px;
+    color: #000;
+    margin-top: 0;
+    text-align: center;
+	text-transform: uppercase;
+	
+   }
+   .container {
+    width: 100%; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивнить весь блок по центру */
+    background: #8F969E; /* Цвет фона левой колонки */
+	font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+    font-size: 14px;
+   }
+   .header {
+    font-size: 28px; /* Размер текста в шапке */
+    font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+	text-align: center; /* Выравнивание текст шапки по центру */
+    padding: 5px; /* Отступы внутри блока шапки */
+    background: #8fa09b; /* Цвет фона шапки */
+    color: #fff; /* Цвет текста */
+	position: sticky;
+	top: 0;
+	z-index: 100;	
+   }
+   .sidebar {
+    margin-top: 10px;
+    width: 210px; /* Ширина блока */
+    padding: 0 10px; /* Отступы внутри левого блока */
+    float: left; /* Обтекание блока по правому краю */
+	position: sticky;
+	top: 69;
+	font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+    font-size: 14px;
+   }
+   .content {
+    margin-left: 230px; /* Отступ слева */
+    padding: 10px; /* Отступы внутри правого блока */
+    background: #fff; /* Цвет фона правого блока */
+	font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+    font-size: 14px;
+	
+   }
+   .footer {
+    background: #8fa09b; /* Цвет фона нижнего блока-подвала */
+    color: #fff; /* Цвет текста подвала */
+    padding: 5px; /* Отступы внутри блока */
+    clear: left; /* Отменяем действие float */
+	font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+    font-size: 14px;
+   }
+   
+   .table_price {
+  border-collapse: collapse;
+  border-left: 3px solid #8fa09b;
+  border-right: 3px solid #8fa09b;
+  border-bottom: 3px solid #8fa09b;
+  font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+  font-size: 14px;
+ }
+.table_price caption {
+  background: #8fa09b; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
+  color: white;
+  font-family: "Roboto Slab",serif;
+  font-style: normal;
+  font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+.table_price td, .table_price th {
+  padding: 10px;
+  font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+  font-size: 14px;
+}
+.table_price th {
+  text-align: left;
+  font-size: 14px;
+  font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+  font-size: 14px;
+  white-space: nowrap;
+}
+.table_price tr:nth-child(2n) {
+  background: #E5E5E5;
+}
+.table_price td:last-of-type {
+  text-align: center;
+}
+
+
+
+ .left-menu {
+    display: inline-block;
+    padding: 10px 10px;
+    background: #2e4967;
+    box-shadow: 2px 2px 0 0 #c3c9cf;
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    width: 90%;
+    border-radius: 3px;
+	font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+    font-size: 16px;
+}
+ .left-menu:hover {
+  box-shadow: none;
+  top: 2px;
+  left: 2px;
+}
+
+
+ .button1 {
+  padding: 5px 10px;
+  border: 0px;
+  height: 26px;
+  display: inline-block;
+  background: #8fa09b;
+  box-shadow: 2px 2px 0 0 #444e4b;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font:  Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+}
+ .button1:hover {
+  box-shadow: none;
+  top: 2px;
+  left: 2px;
+}
+
+.textedit 
+{
+	height: 26px; 
+	Width: 330px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.select 
+{
+	height: 31px; 
+	Width: 330px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.box{
+	display: inline-block;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+	}
+.frame{
+        display:inline-block;
+        width: 50%;
+		float: left;
+    }
+
+.table_info td, .table_info th {
+  padding: 5px 5px 5px 5px;
+  font: Arial, Helvetica, sans-serif; /* Шрифт теста */
+  font-size: 14px;
+}
+ a.button2 {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #8fa09b;
+  box-shadow: 2px 2px 0 0 #444e4b;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+ a.button2:hover {
+  box-shadow: none;
+  top: 2px;
+  left: 2px;
+}
+
+.workshop{
+	border: 1px solid #000;
+	background: #eee;
+	padding: 20px;
+	margin: 20px;
+}
+
+.plot{
+	border: 1px solid #000;
+	background: #f7cfcf;
+	padding: 20px;
+	margin: 5px;
+	display: inline-block;
+	text-align:  center;
+}
+.brigade {
+    border: 1px solid #000;
+    background: #f5f39d;
+	padding: 20px;
+	margin: 5px;
+	display: inline-block;
+	text-align:  center;
+}
+
